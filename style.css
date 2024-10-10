@@ -1,0 +1,100 @@
+* {
+  font-family: Roboto !important;
+}
+
+.cardmain-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-div {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+}
+
+.location-container {
+  position: relative;
+}
+
+.location-icon {
+  position: absolute !important;
+  top: 12%;
+  font-size: 20px;
+  right: 4%;
+}
+
+.form-control {
+  padding: 10px;
+}
+
+.maintop-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-div {
+  color: #fb6991;
+}
+
+.inputs-div {
+  margin-top: 25px;
+}
+
+.radio-button-div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.radio1 {
+  padding: 5px 0px;
+  margin-right: 40px;
+}
+
+.radio2 {
+  padding: 5px 0px;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 0px;
+}
+
+.btn1 {
+  border: none;
+  color: #fb6991;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn2 {
+  border: none;
+  color: white;
+  background-color: #fb6991;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input {
+  border: solid 1px #fb6991 !important;
+}
+
+input:focus {
+  box-shadow: 0px 0px 0px 0.25rem rgba(251, 105, 145, 0.2) !important;
+}
+
+.radio-button-div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
